@@ -1,4 +1,6 @@
-﻿@page "/todo"
+﻿@using FirstApp.Models;
+@page "/todo"
+
 
 <PageTitle>My To Do List</PageTitle>
 
@@ -15,6 +17,8 @@
     }
 </ul>
 
+
+
 <input placeholder="Add Task" @bind="newTodo"/>
 <button @onclick="Add">Add </button>
 
@@ -27,4 +31,6 @@
             newTodo= string.Empty;
         }
     }
+
+    
 }
