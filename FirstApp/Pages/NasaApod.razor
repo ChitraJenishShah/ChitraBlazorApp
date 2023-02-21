@@ -11,15 +11,25 @@
 <NasaImageSection imgUrl="@nasaResponse.url" hdUrl="@nasaResponse.hdurl" copyright="@nasaResponse.copyright"/>
 
 
-
-<p>@nasaResponse</p>
-
-<!-- <input placeholder="Add Task" @bind="newTodo"/>
-<button @onclick="Add">Add </button> -->
+<input placeholder="Add Date" @bind="provideDate"/>
+<button @onclick="AddDate">Add Date</button> 
 
 @code {
+
     private NasaResponse? nasaResponse=null;
     protected override async Task OnInitializedAsync(){
         nasaResponse= await NasaClient.GetNasa(null);
     }
+
+     
+    private string? provideDate;
+    async Task AddDate(){
+        if(!string.IsNullOrWhiteSpace(provideDate)){
+           nasaResponse= await NasaClient.GetNasa(provideDate);
+        }
+    }
+
+    
+
+
 }
