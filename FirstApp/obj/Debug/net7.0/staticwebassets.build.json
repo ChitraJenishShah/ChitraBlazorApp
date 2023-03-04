@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "wF183iKtl5+JiOrd2ho4velC6NVrYi5uAmZK1V8VyRQ=",
+  "Hash": "LMs5M0gBmHj+E2EPpsxBy1Zhtf2aNidChMXITpGJl7c=",
   "Source": "FirstApp",
   "BasePath": "/",
   "Mode": "Root",
@@ -16,6 +16,23 @@
     }
   ],
   "Assets": [
+    {
+      "Identity": "/home/gitpod/.nuget/packages/microsoft.aspnetcore.components.webassembly.authentication/7.0.3/staticwebassets/AuthenticationService.js",
+      "SourceId": "Microsoft.AspNetCore.Components.WebAssembly.Authentication",
+      "SourceType": "Package",
+      "ContentRoot": "/home/gitpod/.nuget/packages/microsoft.aspnetcore.components.webassembly.authentication/7.0.3/staticwebassets/",
+      "BasePath": "_content/Microsoft.AspNetCore.Components.WebAssembly.Authentication",
+      "RelativePath": "AuthenticationService.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/home/gitpod/.nuget/packages/microsoft.aspnetcore.components.webassembly.authentication/7.0.3/staticwebassets/AuthenticationService.js"
+    },
     {
       "Identity": "/workspace/ChitraBlazorApp/FirstApp/bin/Debug/net7.0/wwwroot/_framework/blazor.boot.json",
       "SourceId": "FirstApp",
@@ -218,7 +235,24 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "/home/gitpod/.nuget/packages/microsoft.aspnetcore.authorization/7.0.0/lib/net7.0/Microsoft.AspNetCore.Authorization.dll"
+      "OriginalItemSpec": "/home/gitpod/.nuget/packages/microsoft.aspnetcore.authorization/7.0.3/lib/net7.0/Microsoft.AspNetCore.Authorization.dll"
+    },
+    {
+      "Identity": "/workspace/ChitraBlazorApp/FirstApp/bin/Debug/net7.0/wwwroot/_framework/Microsoft.AspNetCore.Components.Authorization.dll",
+      "SourceId": "FirstApp",
+      "SourceType": "Computed",
+      "ContentRoot": "/workspace/ChitraBlazorApp/FirstApp/bin/Debug/net7.0/wwwroot/",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.AspNetCore.Components.Authorization.dll",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorWebAssemblyResource",
+      "AssetTraitValue": "runtime",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "/home/gitpod/.nuget/packages/microsoft.aspnetcore.components.authorization/7.0.3/lib/net7.0/Microsoft.AspNetCore.Components.Authorization.dll"
     },
     {
       "Identity": "/workspace/ChitraBlazorApp/FirstApp/bin/Debug/net7.0/wwwroot/_framework/Microsoft.AspNetCore.Components.dll",
@@ -235,7 +269,7 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "/home/gitpod/.nuget/packages/microsoft.aspnetcore.components/7.0.0/lib/net7.0/Microsoft.AspNetCore.Components.dll"
+      "OriginalItemSpec": "/home/gitpod/.nuget/packages/microsoft.aspnetcore.components/7.0.3/lib/net7.0/Microsoft.AspNetCore.Components.dll"
     },
     {
       "Identity": "/workspace/ChitraBlazorApp/FirstApp/bin/Debug/net7.0/wwwroot/_framework/Microsoft.AspNetCore.Components.Forms.dll",
@@ -252,7 +286,7 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "/home/gitpod/.nuget/packages/microsoft.aspnetcore.components.forms/7.0.0/lib/net7.0/Microsoft.AspNetCore.Components.Forms.dll"
+      "OriginalItemSpec": "/home/gitpod/.nuget/packages/microsoft.aspnetcore.components.forms/7.0.3/lib/net7.0/Microsoft.AspNetCore.Components.Forms.dll"
     },
     {
       "Identity": "/workspace/ChitraBlazorApp/FirstApp/bin/Debug/net7.0/wwwroot/_framework/Microsoft.AspNetCore.Components.Web.dll",
@@ -269,7 +303,24 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "/home/gitpod/.nuget/packages/microsoft.aspnetcore.components.web/7.0.0/lib/net7.0/Microsoft.AspNetCore.Components.Web.dll"
+      "OriginalItemSpec": "/home/gitpod/.nuget/packages/microsoft.aspnetcore.components.web/7.0.3/lib/net7.0/Microsoft.AspNetCore.Components.Web.dll"
+    },
+    {
+      "Identity": "/workspace/ChitraBlazorApp/FirstApp/bin/Debug/net7.0/wwwroot/_framework/Microsoft.AspNetCore.Components.WebAssembly.Authentication.dll",
+      "SourceId": "FirstApp",
+      "SourceType": "Computed",
+      "ContentRoot": "/workspace/ChitraBlazorApp/FirstApp/bin/Debug/net7.0/wwwroot/",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.AspNetCore.Components.WebAssembly.Authentication.dll",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorWebAssemblyResource",
+      "AssetTraitValue": "runtime",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "/home/gitpod/.nuget/packages/microsoft.aspnetcore.components.webassembly.authentication/7.0.3/lib/net7.0/Microsoft.AspNetCore.Components.WebAssembly.Authentication.dll"
     },
     {
       "Identity": "/workspace/ChitraBlazorApp/FirstApp/bin/Debug/net7.0/wwwroot/_framework/Microsoft.AspNetCore.Components.WebAssembly.dll",
@@ -303,7 +354,7 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "/home/gitpod/.nuget/packages/microsoft.aspnetcore.metadata/7.0.0/lib/net7.0/Microsoft.AspNetCore.Metadata.dll"
+      "OriginalItemSpec": "/home/gitpod/.nuget/packages/microsoft.aspnetcore.metadata/7.0.3/lib/net7.0/Microsoft.AspNetCore.Metadata.dll"
     },
     {
       "Identity": "/workspace/ChitraBlazorApp/FirstApp/bin/Debug/net7.0/wwwroot/_framework/Microsoft.CSharp.dll",
@@ -558,7 +609,7 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "/home/gitpod/.nuget/packages/microsoft.extensions.options/7.0.0/lib/net7.0/Microsoft.Extensions.Options.dll"
+      "OriginalItemSpec": "/home/gitpod/.nuget/packages/microsoft.extensions.options/7.0.1/lib/net7.0/Microsoft.Extensions.Options.dll"
     },
     {
       "Identity": "/workspace/ChitraBlazorApp/FirstApp/bin/Debug/net7.0/wwwroot/_framework/Microsoft.Extensions.Primitives.dll",
@@ -592,7 +643,7 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "/home/gitpod/.nuget/packages/microsoft.jsinterop/7.0.0/lib/net7.0/Microsoft.JSInterop.dll"
+      "OriginalItemSpec": "/home/gitpod/.nuget/packages/microsoft.jsinterop/7.0.3/lib/net7.0/Microsoft.JSInterop.dll"
     },
     {
       "Identity": "/workspace/ChitraBlazorApp/FirstApp/bin/Debug/net7.0/wwwroot/_framework/Microsoft.JSInterop.WebAssembly.dll",
@@ -4233,6 +4284,23 @@
       "OriginalItemSpec": "/workspace/ChitraBlazorApp/FirstApp/bin/Debug/net7.0/wwwroot/_framework/Microsoft.Extensions.Logging.Abstractions.dll"
     },
     {
+      "Identity": "/workspace/ChitraBlazorApp/FirstApp/obj/Debug/net7.0/build-gz/DGPPfc+M.gz",
+      "SourceId": "FirstApp",
+      "SourceType": "Computed",
+      "ContentRoot": "/workspace/ChitraBlazorApp/FirstApp/bin/Debug/net7.0/wwwroot/",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.AspNetCore.Components.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "/workspace/ChitraBlazorApp/FirstApp/bin/Debug/net7.0/wwwroot/_framework/Microsoft.AspNetCore.Components.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "/workspace/ChitraBlazorApp/FirstApp/bin/Debug/net7.0/wwwroot/_framework/Microsoft.AspNetCore.Components.dll"
+    },
+    {
       "Identity": "/workspace/ChitraBlazorApp/FirstApp/obj/Debug/net7.0/build-gz/DkjzCfHX.gz",
       "SourceId": "FirstApp",
       "SourceType": "Computed",
@@ -4333,23 +4401,6 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "/workspace/ChitraBlazorApp/FirstApp/bin/Debug/net7.0/wwwroot/_framework/System.Runtime.InteropServices.dll"
-    },
-    {
-      "Identity": "/workspace/ChitraBlazorApp/FirstApp/obj/Debug/net7.0/build-gz/ELGTTHVU.gz",
-      "SourceId": "FirstApp",
-      "SourceType": "Computed",
-      "ContentRoot": "/workspace/ChitraBlazorApp/FirstApp/bin/Debug/net7.0/wwwroot/",
-      "BasePath": "/",
-      "RelativePath": "_framework/Microsoft.AspNetCore.Components.Forms.dll.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "RelatedAsset": "/workspace/ChitraBlazorApp/FirstApp/bin/Debug/net7.0/wwwroot/_framework/Microsoft.AspNetCore.Components.Forms.dll",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "/workspace/ChitraBlazorApp/FirstApp/bin/Debug/net7.0/wwwroot/_framework/Microsoft.AspNetCore.Components.Forms.dll"
     },
     {
       "Identity": "/workspace/ChitraBlazorApp/FirstApp/obj/Debug/net7.0/build-gz/EQwTRK7w.gz",
@@ -4522,6 +4573,23 @@
       "OriginalItemSpec": "/workspace/ChitraBlazorApp/FirstApp/bin/Debug/net7.0/wwwroot/_framework/System.Runtime.Intrinsics.dll"
     },
     {
+      "Identity": "/workspace/ChitraBlazorApp/FirstApp/obj/Debug/net7.0/build-gz/fXqTT7hy.gz",
+      "SourceId": "FirstApp",
+      "SourceType": "Computed",
+      "ContentRoot": "/workspace/ChitraBlazorApp/FirstApp/bin/Debug/net7.0/wwwroot/",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.JSInterop.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "/workspace/ChitraBlazorApp/FirstApp/bin/Debug/net7.0/wwwroot/_framework/Microsoft.JSInterop.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "/workspace/ChitraBlazorApp/FirstApp/bin/Debug/net7.0/wwwroot/_framework/Microsoft.JSInterop.dll"
+    },
+    {
       "Identity": "/workspace/ChitraBlazorApp/FirstApp/obj/Debug/net7.0/build-gz/fyt+cNuX.gz",
       "SourceId": "FirstApp",
       "SourceType": "Computed",
@@ -4537,6 +4605,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "/workspace/ChitraBlazorApp/FirstApp/bin/Debug/net7.0/wwwroot/_framework/System.Xml.ReaderWriter.dll"
+    },
+    {
+      "Identity": "/workspace/ChitraBlazorApp/FirstApp/obj/Debug/net7.0/build-gz/GdzTFFMW.gz",
+      "SourceId": "FirstApp",
+      "SourceType": "Computed",
+      "ContentRoot": "/workspace/ChitraBlazorApp/FirstApp/bin/Debug/net7.0/wwwroot/",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.AspNetCore.Components.WebAssembly.Authentication.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "/workspace/ChitraBlazorApp/FirstApp/bin/Debug/net7.0/wwwroot/_framework/Microsoft.AspNetCore.Components.WebAssembly.Authentication.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "/workspace/ChitraBlazorApp/FirstApp/bin/Debug/net7.0/wwwroot/_framework/Microsoft.AspNetCore.Components.WebAssembly.Authentication.dll"
     },
     {
       "Identity": "/workspace/ChitraBlazorApp/FirstApp/obj/Debug/net7.0/build-gz/gJG8+xDO.gz",
@@ -4690,23 +4775,6 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "/workspace/ChitraBlazorApp/FirstApp/bin/Debug/net7.0/wwwroot/_framework/System.Collections.Concurrent.dll"
-    },
-    {
-      "Identity": "/workspace/ChitraBlazorApp/FirstApp/obj/Debug/net7.0/build-gz/hasU15AI.gz",
-      "SourceId": "FirstApp",
-      "SourceType": "Computed",
-      "ContentRoot": "/workspace/ChitraBlazorApp/FirstApp/bin/Debug/net7.0/wwwroot/",
-      "BasePath": "/",
-      "RelativePath": "_framework/Microsoft.Extensions.Options.dll.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "RelatedAsset": "/workspace/ChitraBlazorApp/FirstApp/bin/Debug/net7.0/wwwroot/_framework/Microsoft.Extensions.Options.dll",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "/workspace/ChitraBlazorApp/FirstApp/bin/Debug/net7.0/wwwroot/_framework/Microsoft.Extensions.Options.dll"
     },
     {
       "Identity": "/workspace/ChitraBlazorApp/FirstApp/obj/Debug/net7.0/build-gz/hdZY30+b.gz",
@@ -4879,6 +4947,23 @@
       "OriginalItemSpec": "/workspace/ChitraBlazorApp/FirstApp/bin/Debug/net7.0/wwwroot/_framework/System.Security.Cryptography.Primitives.dll"
     },
     {
+      "Identity": "/workspace/ChitraBlazorApp/FirstApp/obj/Debug/net7.0/build-gz/j0QTudTT.gz",
+      "SourceId": "FirstApp",
+      "SourceType": "Computed",
+      "ContentRoot": "/workspace/ChitraBlazorApp/FirstApp/bin/Debug/net7.0/wwwroot/",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.AspNetCore.Metadata.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "/workspace/ChitraBlazorApp/FirstApp/bin/Debug/net7.0/wwwroot/_framework/Microsoft.AspNetCore.Metadata.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "/workspace/ChitraBlazorApp/FirstApp/bin/Debug/net7.0/wwwroot/_framework/Microsoft.AspNetCore.Metadata.dll"
+    },
+    {
       "Identity": "/workspace/ChitraBlazorApp/FirstApp/obj/Debug/net7.0/build-gz/j0RpCWrO.gz",
       "SourceId": "FirstApp",
       "SourceType": "Computed",
@@ -4930,6 +5015,23 @@
       "OriginalItemSpec": "/workspace/ChitraBlazorApp/FirstApp/bin/Debug/net7.0/wwwroot/_framework/System.IO.Compression.Brotli.dll"
     },
     {
+      "Identity": "/workspace/ChitraBlazorApp/FirstApp/obj/Debug/net7.0/build-gz/Jutymyd4.gz",
+      "SourceId": "FirstApp",
+      "SourceType": "Computed",
+      "ContentRoot": "/workspace/ChitraBlazorApp/FirstApp/bin/Debug/net7.0/wwwroot/",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.AspNetCore.Authorization.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "/workspace/ChitraBlazorApp/FirstApp/bin/Debug/net7.0/wwwroot/_framework/Microsoft.AspNetCore.Authorization.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "/workspace/ChitraBlazorApp/FirstApp/bin/Debug/net7.0/wwwroot/_framework/Microsoft.AspNetCore.Authorization.dll"
+    },
+    {
       "Identity": "/workspace/ChitraBlazorApp/FirstApp/obj/Debug/net7.0/build-gz/JWUDFSyb.gz",
       "SourceId": "FirstApp",
       "SourceType": "Computed",
@@ -4979,23 +5081,6 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "/workspace/ChitraBlazorApp/FirstApp/bin/Debug/net7.0/wwwroot/_framework/Microsoft.Extensions.Configuration.Binder.dll"
-    },
-    {
-      "Identity": "/workspace/ChitraBlazorApp/FirstApp/obj/Debug/net7.0/build-gz/k5kQokYl.gz",
-      "SourceId": "FirstApp",
-      "SourceType": "Computed",
-      "ContentRoot": "/workspace/ChitraBlazorApp/FirstApp/bin/Debug/net7.0/wwwroot/",
-      "BasePath": "/",
-      "RelativePath": "_framework/Microsoft.AspNetCore.Authorization.dll.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "RelatedAsset": "/workspace/ChitraBlazorApp/FirstApp/bin/Debug/net7.0/wwwroot/_framework/Microsoft.AspNetCore.Authorization.dll",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "/workspace/ChitraBlazorApp/FirstApp/bin/Debug/net7.0/wwwroot/_framework/Microsoft.AspNetCore.Authorization.dll"
     },
     {
       "Identity": "/workspace/ChitraBlazorApp/FirstApp/obj/Debug/net7.0/build-gz/K9ptOHRF.gz",
@@ -5236,6 +5321,23 @@
       "OriginalItemSpec": "/workspace/ChitraBlazorApp/FirstApp/bin/Debug/net7.0/wwwroot/_framework/System.Linq.Parallel.dll"
     },
     {
+      "Identity": "/workspace/ChitraBlazorApp/FirstApp/obj/Debug/net7.0/build-gz/m4WweJkK.gz",
+      "SourceId": "FirstApp",
+      "SourceType": "Computed",
+      "ContentRoot": "/workspace/ChitraBlazorApp/FirstApp/bin/Debug/net7.0/wwwroot/",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.Extensions.Options.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "/workspace/ChitraBlazorApp/FirstApp/bin/Debug/net7.0/wwwroot/_framework/Microsoft.Extensions.Options.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "/workspace/ChitraBlazorApp/FirstApp/bin/Debug/net7.0/wwwroot/_framework/Microsoft.Extensions.Options.dll"
+    },
+    {
       "Identity": "/workspace/ChitraBlazorApp/FirstApp/obj/Debug/net7.0/build-gz/m5P02Ho0.gz",
       "SourceId": "FirstApp",
       "SourceType": "Computed",
@@ -5302,23 +5404,6 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "/workspace/ChitraBlazorApp/FirstApp/bin/Debug/net7.0/wwwroot/_framework/dotnet.timezones.blat"
-    },
-    {
-      "Identity": "/workspace/ChitraBlazorApp/FirstApp/obj/Debug/net7.0/build-gz/mcLUSJWZ.gz",
-      "SourceId": "FirstApp",
-      "SourceType": "Computed",
-      "ContentRoot": "/workspace/ChitraBlazorApp/FirstApp/bin/Debug/net7.0/wwwroot/",
-      "BasePath": "/",
-      "RelativePath": "_framework/Microsoft.AspNetCore.Components.dll.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "RelatedAsset": "/workspace/ChitraBlazorApp/FirstApp/bin/Debug/net7.0/wwwroot/_framework/Microsoft.AspNetCore.Components.dll",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "/workspace/ChitraBlazorApp/FirstApp/bin/Debug/net7.0/wwwroot/_framework/Microsoft.AspNetCore.Components.dll"
     },
     {
       "Identity": "/workspace/ChitraBlazorApp/FirstApp/obj/Debug/net7.0/build-gz/mdH07PJ6.gz",
@@ -5746,6 +5831,23 @@
       "OriginalItemSpec": "/workspace/ChitraBlazorApp/FirstApp/bin/Debug/net7.0/wwwroot/_framework/System.Xml.XPath.dll"
     },
     {
+      "Identity": "/workspace/ChitraBlazorApp/FirstApp/obj/Debug/net7.0/build-gz/pcyLC7jN.gz",
+      "SourceId": "FirstApp",
+      "SourceType": "Computed",
+      "ContentRoot": "/workspace/ChitraBlazorApp/FirstApp/bin/Debug/net7.0/wwwroot/",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.AspNetCore.Components.Forms.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "/workspace/ChitraBlazorApp/FirstApp/bin/Debug/net7.0/wwwroot/_framework/Microsoft.AspNetCore.Components.Forms.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "/workspace/ChitraBlazorApp/FirstApp/bin/Debug/net7.0/wwwroot/_framework/Microsoft.AspNetCore.Components.Forms.dll"
+    },
+    {
       "Identity": "/workspace/ChitraBlazorApp/FirstApp/obj/Debug/net7.0/build-gz/Pf9ghMoJ.gz",
       "SourceId": "FirstApp",
       "SourceType": "Computed",
@@ -5795,23 +5897,6 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "/workspace/ChitraBlazorApp/FirstApp/bin/Debug/net7.0/wwwroot/_framework/System.Runtime.InteropServices.RuntimeInformation.dll"
-    },
-    {
-      "Identity": "/workspace/ChitraBlazorApp/FirstApp/obj/Debug/net7.0/build-gz/PL6il4FQ.gz",
-      "SourceId": "FirstApp",
-      "SourceType": "Computed",
-      "ContentRoot": "/workspace/ChitraBlazorApp/FirstApp/bin/Debug/net7.0/wwwroot/",
-      "BasePath": "/",
-      "RelativePath": "_framework/Microsoft.AspNetCore.Components.Web.dll.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "RelatedAsset": "/workspace/ChitraBlazorApp/FirstApp/bin/Debug/net7.0/wwwroot/_framework/Microsoft.AspNetCore.Components.Web.dll",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "/workspace/ChitraBlazorApp/FirstApp/bin/Debug/net7.0/wwwroot/_framework/Microsoft.AspNetCore.Components.Web.dll"
     },
     {
       "Identity": "/workspace/ChitraBlazorApp/FirstApp/obj/Debug/net7.0/build-gz/PRjAUEHN.gz",
@@ -6120,6 +6205,23 @@
       "OriginalItemSpec": "/workspace/ChitraBlazorApp/FirstApp/bin/Debug/net7.0/wwwroot/_framework/System.Net.WebSockets.dll"
     },
     {
+      "Identity": "/workspace/ChitraBlazorApp/FirstApp/obj/Debug/net7.0/build-gz/S7Cy4Jhd.gz",
+      "SourceId": "FirstApp",
+      "SourceType": "Computed",
+      "ContentRoot": "/workspace/ChitraBlazorApp/FirstApp/bin/Debug/net7.0/wwwroot/",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.AspNetCore.Components.Web.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "/workspace/ChitraBlazorApp/FirstApp/bin/Debug/net7.0/wwwroot/_framework/Microsoft.AspNetCore.Components.Web.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "/workspace/ChitraBlazorApp/FirstApp/bin/Debug/net7.0/wwwroot/_framework/Microsoft.AspNetCore.Components.Web.dll"
+    },
+    {
       "Identity": "/workspace/ChitraBlazorApp/FirstApp/obj/Debug/net7.0/build-gz/SJi0GTlq.gz",
       "SourceId": "FirstApp",
       "SourceType": "Computed",
@@ -6169,23 +6271,6 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "/workspace/ChitraBlazorApp/FirstApp/bin/Debug/net7.0/wwwroot/_framework/System.Net.Http.dll"
-    },
-    {
-      "Identity": "/workspace/ChitraBlazorApp/FirstApp/obj/Debug/net7.0/build-gz/TE5ycmFN.gz",
-      "SourceId": "FirstApp",
-      "SourceType": "Computed",
-      "ContentRoot": "/workspace/ChitraBlazorApp/FirstApp/bin/Debug/net7.0/wwwroot/",
-      "BasePath": "/",
-      "RelativePath": "_framework/Microsoft.JSInterop.dll.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "RelatedAsset": "/workspace/ChitraBlazorApp/FirstApp/bin/Debug/net7.0/wwwroot/_framework/Microsoft.JSInterop.dll",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "/workspace/ChitraBlazorApp/FirstApp/bin/Debug/net7.0/wwwroot/_framework/Microsoft.JSInterop.dll"
     },
     {
       "Identity": "/workspace/ChitraBlazorApp/FirstApp/obj/Debug/net7.0/build-gz/Tf+5IwK+.gz",
@@ -6528,6 +6613,23 @@
       "OriginalItemSpec": "/workspace/ChitraBlazorApp/FirstApp/bin/Debug/net7.0/wwwroot/_framework/Microsoft.VisualBasic.Core.dll"
     },
     {
+      "Identity": "/workspace/ChitraBlazorApp/FirstApp/obj/Debug/net7.0/build-gz/w1QX71rG.gz",
+      "SourceId": "FirstApp",
+      "SourceType": "Computed",
+      "ContentRoot": "/workspace/ChitraBlazorApp/FirstApp/bin/Debug/net7.0/wwwroot/",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.AspNetCore.Components.Authorization.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "/workspace/ChitraBlazorApp/FirstApp/bin/Debug/net7.0/wwwroot/_framework/Microsoft.AspNetCore.Components.Authorization.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "/workspace/ChitraBlazorApp/FirstApp/bin/Debug/net7.0/wwwroot/_framework/Microsoft.AspNetCore.Components.Authorization.dll"
+    },
+    {
       "Identity": "/workspace/ChitraBlazorApp/FirstApp/obj/Debug/net7.0/build-gz/wCTsgU43.gz",
       "SourceId": "FirstApp",
       "SourceType": "Computed",
@@ -6662,23 +6764,6 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "/workspace/ChitraBlazorApp/FirstApp/bin/Debug/net7.0/wwwroot/_framework/System.Xml.XDocument.dll"
-    },
-    {
-      "Identity": "/workspace/ChitraBlazorApp/FirstApp/obj/Debug/net7.0/build-gz/x4gv29z5.gz",
-      "SourceId": "FirstApp",
-      "SourceType": "Computed",
-      "ContentRoot": "/workspace/ChitraBlazorApp/FirstApp/bin/Debug/net7.0/wwwroot/",
-      "BasePath": "/",
-      "RelativePath": "_framework/Microsoft.AspNetCore.Metadata.dll.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "RelatedAsset": "/workspace/ChitraBlazorApp/FirstApp/bin/Debug/net7.0/wwwroot/_framework/Microsoft.AspNetCore.Metadata.dll",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "/workspace/ChitraBlazorApp/FirstApp/bin/Debug/net7.0/wwwroot/_framework/Microsoft.AspNetCore.Metadata.dll"
     },
     {
       "Identity": "/workspace/ChitraBlazorApp/FirstApp/obj/Debug/net7.0/build-gz/XDfQLBe+.gz",
